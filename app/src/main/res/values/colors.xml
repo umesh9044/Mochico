@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#072D75</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="text_black">#231F20</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="text_colorgrey">#292828</color>
+    <color name="colorred">#FF0126</color>
+    <color name="colorGreenForest">#228b22</color>
+
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+
+    <color name="dialog_screengreen">#CBFCF6</color>
+    <color name="btn_grey">#353535</color>
+    <color name="text_hint">#585858</color>
+    <color name="colorBackground">#E2E3E4</color>
+    <color name="colorToolbarBackground">#118e02</color>
+    <color name="colorBlack">#423E3E</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack3">#383838</color>
+    <color name="colorViewBackground">#bababa</color>
+    <color name="colorTabColor">#202020</color>
+    <color name="backgroundGrey">#9fa2a4</color>
+    <color name="disableColor">#c6c6c6</color>
+    <color name="colorEtStroke">#ebebeb</color>
+    <color name="colorCoolGrey">#9fa2a4</color>
+    <color name="colorToxiGreen">#44db32</color>
+    <color name="colorLightGray">#919191</color>
+    <color name="colorDetailBlack">#010101</color>
+    <color name="btn_shadow_green">#03BDA2</color>
+    <color name="btn_color_dialog">#029685</color>
+    <color name="btn_shadow_grey">#4E4E4E</color>
+    <color name="unselected_bg">#383838</color>
+    <color name="colorText1">#2d2d2d</color>
+    <color name="colorText2">#494949</color>
+    <color name="colorHint">#3e3e3e</color>
+    <color name="colorText">#131313</color>
+    <color name="colorimageTint">#646464</color>
+    <color name="colorHint2">#808080</color>
+    <color name="btn_spinner_text">#7E7D7D</color>
+
+</resources>

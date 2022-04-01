@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/inout_Layout"
+    tools:context=".activity.InnerBoxInOuterBox">
+    <include layout="@layout/toolbar_right" />
+
+    <ScrollView
+        android:id="@+id/li_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/li_btnlayout"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Operator:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/lblOperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:gravity="start|center"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textSize="@dimen/text_size_17" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Type Of Work:"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/lblTypeOfWork"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:gravity="start|center"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textSize="@dimen/text_size_17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOuterBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Outer Box Barcode:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/txtOuterBarcodescan"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:focusable="true"
+                    android:inputType="text"
+                    android:focusableInTouchMode="true"
+                    android:gravity="start|center"
+                    android:hint="Scan Barcode"
+                    android:imeOptions="actionNone"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textCursorDrawable="@drawable/cursor_text"
+                    android:textSize="@dimen/text_size_17" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Article Name:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/lblArticle"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:gravity="start|center"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textSize="@dimen/text_size_17" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.63"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:text="Inner Box Scanning Qty:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/txtscanningqty"
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="0.37"
+                    android:background="@drawable/drawable_text"
+                    android:imeOptions="actionNone"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textCursorDrawable="@drawable/cursor_text"
+                    android:textSize="@dimen/text_size_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/layoutInnerBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Inner Box Barcode:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/txtInnerBarcodescan"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:focusable="true"
+                    android:inputType="text"
+                    android:focusableInTouchMode="true"
+                    android:gravity="start|center"
+                    android:hint="Scan Barcode"
+                    android:imeOptions="actionNone"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textCursorDrawable="@drawable/cursor_text"
+                    android:textSize="@dimen/text_size_17" />
+
+                <TextView
+                    android:id="@+id/lblInnerScanned"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="0/10"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="18pt" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/Btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:focusable="false"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn_primary"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="OK"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_15" />
+
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn_primary"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="EXIT"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_15" />
+
+
+        <Button
+            android:id="@+id/btn_cleardata"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_gray"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:text="CLEAR"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_15"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</RelativeLayout>

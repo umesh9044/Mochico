@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/outerboxinward_Layout"
+    tools:context=".activity.OuterBoxInward">
+    <include layout="@layout/toolbar_right" />
+
+    <ScrollView
+        android:id="@+id/li_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/li_btnlayout"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Operator:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/lblOperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:gravity="start|center"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textSize="@dimen/text_size_17" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Type Of Work:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:id="@+id/lblTypeOfWork"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:gravity="start|center"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textSize="@dimen/text_size_17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text="Carton Box Barcode:"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/txtBarcodescan"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@drawable/drawable_text"
+                    android:focusable="true"
+                    android:inputType="text"
+                    android:focusableInTouchMode="true"
+                    android:gravity="start|center"
+                    android:hint="Scan barcode"
+                    android:imeOptions="actionNone"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorimageTint"
+                    android:textCursorDrawable="@drawable/cursor_text"
+                    android:textSize="@dimen/text_size_17" />
+
+                <TextView
+                    android:id="@+id/lblOuterScanned"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="18pt" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

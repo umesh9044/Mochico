@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/activity_InOut.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/activity_in_out.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/activity_scan_carton.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/search_list_text.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/searchable_list_dialog.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/setting_layout.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico.2022.02.07/Mochico/app/src/main/res/layout/toolbar_right.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_in_out.xml" value="0.24728260869565216" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_in_out_outerbox.xml" value="0.21920289855072464" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_main.xml" value="0.24728260869565216" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_outerbox_inward.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_scan_carton.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/innerbox_in_outerbox.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/outerbox_inward.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/search_list_text.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/searchable_list_dialog.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/setting_layout.xml" value="0.24728260869565216" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Umesh/Projects/Mochico/Mochico/app/src/main/res/layout/toolbar_right.xml" value="0.24728260869565216" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
