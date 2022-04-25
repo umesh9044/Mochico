@@ -19,7 +19,7 @@ public class SQLDB {
         {
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
             //con= DriverManager.getConnection("jdbc:jtds:sqlserver://182.74.67.181:49442;databasename=dbmochico;user=sa;password=star@123;");
-            con= DriverManager.getConnection("jdbc:jtds:sqlserver://182.74.67.181:1433;databasename=dbmochico;user=sa;password=star@123;");
+            con= DriverManager.getConnection("jdbc:jtds:sqlserver://arise.Mochiko-group.in:1433;databasename=dbmochico;user=sa;password=star@123;");
         }
         catch (Exception ex)
         {
